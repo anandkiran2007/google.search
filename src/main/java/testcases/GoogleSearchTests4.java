@@ -8,7 +8,7 @@ import dataProvider.GoogleSearchCsvObjects;
 import dataProvider.GoogleSearchDataProvider;
 import driverHandler.BaseClass;
 
-public class GoogleSearchTests4 extends BaseClass{
+public class GoogleSearchTests4 extends BaseClass {
 
 	public GoogleSearchPageObjects loginPage;
 	

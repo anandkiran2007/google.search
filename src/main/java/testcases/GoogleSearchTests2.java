@@ -12,12 +12,6 @@ import driverHandler.BaseClass;
 public class GoogleSearchTests2 extends BaseClass{
 
 	public GoogleSearchPageObjects loginPage;
-	//GoogleSearchCsvObjects data;
-
-	//	public GoogleSearchTests(GoogleSearchCsvObjects dataSet)
-	//	{
-	//		this.data = dataSet;
-	//	}
 
 
 

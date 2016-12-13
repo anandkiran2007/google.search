@@ -9,9 +9,9 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class CommomMethods {
+ public class CommomMethods {
 
-	private WebDriver driver;
+	public WebDriver driver;
 
 	public CommomMethods(WebDriver driver){
 		this.driver = driver;
@@ -22,9 +22,9 @@ public class CommomMethods {
 		try{
 			driver.get(url);
 		}catch(NotFoundException ex){
-			System.out.println("Url not found"+ url);
+			System.out.println("Url not found ="+ ex);
 		}catch(Exception ex){
-			System.out.println("Url invalid"+ url);
+			System.out.println("Url invalid =" + ex);
 		}
 	}
 

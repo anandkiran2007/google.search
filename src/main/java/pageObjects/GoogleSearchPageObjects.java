@@ -14,7 +14,7 @@ import commonMethods.CommomMethods;
 // This is an example of page object model using Selenium wed driver with TestNG 
 
 // Below Webelements are identifed using Selenium IDE / Firebug 
-public class GoogleSearchPageObjects{
+public class GoogleSearchPageObjects {
 
 	@FindBy(name = "q")
 	private WebElement googleSearch;

@@ -3,37 +3,117 @@
 <suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
   <parameter name="config-file" value="src/test/resources/config.properties/"/>
   <parameter name="OS" value="Windows"/>
-  <parameter name="browserName" value="Firefox"/>
+  <parameter name="browserName" value="Chrome"/>
+  <test name="Test-1(failed)" parallel="tests">
+    <parameter name="OS" value="MAC"/>
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="testcases.GoogleSearchTests4">
+        <methods>
+          <include name="configLoader"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests4 -->
+      <class name="testcases.GoogleSearchTests3">
+        <methods>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests3 -->
+      <class name="testcases.GoogleSearchTests">
+        <methods>
+          <include name="testLoginLogout"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests -->
+      <class name="testcases.GoogleSearchTests2">
+        <methods>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests2 -->
+    </classes>
+  </test> <!-- Test-1(failed) -->
   <test name="Test-2(failed)" parallel="tests">
     <parameter name="OS" value="WINDOWS"/>
     <parameter name="browserName" value="Chrome"/>
     <classes>
-      <class name="testcases.GoogleSearchTestsHitSecondLink">
+      <class name="testcases.GoogleSearchTests4">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testcases.GoogleSearchTestsHitSecondLink -->
-      <class name="testcases.GoogleSearchTests2">
-        <methods>
-          <include name="tearDown"/>
           <include name="configLoader"/>
-          <include name="setUp"/>
+          <include name="initDriver"/>
         </methods>
-      </class> <!-- testcases.GoogleSearchTests2 -->
-      <class name="testcases.GoogleSearchTestsHitFirstLink">
+      </class> <!-- testcases.GoogleSearchTests4 -->
+      <class name="testcases.GoogleSearchTests3">
         <methods>
-          <include name="tearDown"/>
-          <include name="testLoginLogout2"/>
-          <include name="setUp"/>
+          <include name="initDriver"/>
         </methods>
-      </class> <!-- testcases.GoogleSearchTestsHitFirstLink -->
+      </class> <!-- testcases.GoogleSearchTests3 -->
       <class name="testcases.GoogleSearchTests">
         <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="initDriver"/>
         </methods>
       </class> <!-- testcases.GoogleSearchTests -->
+      <class name="testcases.GoogleSearchTests2">
+        <methods>
+          <include name="googleSearchTests2"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests2 -->
     </classes>
   </test> <!-- Test-2(failed) -->
+  <test name="Test-3(failed)" parallel="tests">
+    <parameter name="OS" value="MAC"/>
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="testcases.GoogleSearchTests3">
+        <methods>
+          <include name="initDriver"/>
+          <include name="googleSearchTests3"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests3 -->
+      <class name="testcases.GoogleSearchTests4">
+        <methods>
+          <include name="configLoader"/>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests4 -->
+      <class name="testcases.GoogleSearchTests">
+        <methods>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests -->
+      <class name="testcases.GoogleSearchTests2">
+        <methods>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests2 -->
+    </classes>
+  </test> <!-- Test-3(failed) -->
+  <test name="Test-4(failed)" parallel="tests">
+    <parameter name="OS" value="Windows"/>
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="testcases.GoogleSearchTests4">
+        <methods>
+          <include name="configLoader"/>
+          <include name="initDriver"/>
+          <include name="googleSearchTests4"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests4 -->
+      <class name="testcases.GoogleSearchTests3">
+        <methods>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests3 -->
+      <class name="testcases.GoogleSearchTests">
+        <methods>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests -->
+      <class name="testcases.GoogleSearchTests2">
+        <methods>
+          <include name="initDriver"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests2 -->
+    </classes>
+  </test> <!-- Test-4(failed) -->
 </suite> <!-- Failed suite [Suite] -->
