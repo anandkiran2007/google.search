@@ -5,7 +5,10 @@ This project is an example for how to implement Page Object Model framework usin
 
 This is build using maven, and the scripts are expected to run on remote machines. Please use the GridHug.json and GridNode.json for running the scripts in remote machine
 
-Stesp to implement:
+Pre-requisitic:
+Install TestNG in your IDE (eclipse / Intellij) from http://testng.org/doc/download.html
+
+Steps to implement:
 1. Clone the project 
 2. Import the project as maven project in the IDE
 3. Download the selenium 3.0.1 (standalone server jar) from http://www.seleniumhq.org/download/
