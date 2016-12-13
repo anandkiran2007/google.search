@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="config-file" value="src/test/resources/config.properties/"/>
+  <parameter name="OS" value="Windows"/>
+  <parameter name="browserName" value="Firefox"/>
+  <test name="Test-2(failed)" parallel="tests">
+    <parameter name="OS" value="WINDOWS"/>
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="testcases.GoogleSearchTestsHitSecondLink">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTestsHitSecondLink -->
+      <class name="testcases.GoogleSearchTests2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configLoader"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests2 -->
+      <class name="testcases.GoogleSearchTestsHitFirstLink">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testLoginLogout2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTestsHitFirstLink -->
+      <class name="testcases.GoogleSearchTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.GoogleSearchTests -->
+    </classes>
+  </test> <!-- Test-2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

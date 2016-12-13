@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="16" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="41326" started-at="2016-12-13T05:25:12Z" finished-at="2016-12-13T05:25:54Z">
+    <groups>
+    </groups>
+    <test name="Test-1" duration-ms="14392" started-at="2016-12-13T05:25:12Z" finished-at="2016-12-13T05:25:27Z">
+      <class name="testcases.GoogleSearchTests">
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:testcases.GoogleSearchTests@59fa1d9b]" name="initDriver" is-config="true" duration-ms="3795" started-at="2016-12-12T21:25:12Z" finished-at="2016-12-12T21:25:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="testLoginLogout(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests@59fa1d9b]" name="testLoginLogout" duration-ms="2790" started-at="2016-12-12T21:25:16Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@78dcb3be]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogout -->
+        <test-method status="PASS" signature="testLoginLogout(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests@59fa1d9b]" name="testLoginLogout" duration-ms="2611" started-at="2016-12-12T21:25:19Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@157fb3e3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogout -->
+        <test-method status="PASS" signature="testLoginLogout(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests@59fa1d9b]" name="testLoginLogout" duration-ms="2455" started-at="2016-12-12T21:25:22Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@3d728405]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogout -->
+        <test-method status="PASS" signature="testLoginLogout(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests@59fa1d9b]" name="testLoginLogout" duration-ms="2226" started-at="2016-12-12T21:25:24Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@78bbfcdb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.GoogleSearchTests@59fa1d9b]" name="tearDown" is-config="true" duration-ms="486" started-at="2016-12-12T21:25:26Z" finished-at="2016-12-12T21:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.GoogleSearchTests -->
+    </test> <!-- Test-1 -->
+    <test name="Test-2" duration-ms="24654" started-at="2016-12-13T05:25:12Z" finished-at="2016-12-13T05:25:37Z">
+      <class name="testcases.GoogleSearchTests2">
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:testcases.GoogleSearchTests2@4667ae56]" name="initDriver" is-config="true" duration-ms="5980" started-at="2016-12-12T21:25:12Z" finished-at="2016-12-12T21:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="googleSearchTests2(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests2@4667ae56]" name="googleSearchTests2" duration-ms="8713" started-at="2016-12-12T21:25:18Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@1132887a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTests2 -->
+        <test-method status="PASS" signature="googleSearchTests2(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests2@4667ae56]" name="googleSearchTests2" duration-ms="3658" started-at="2016-12-12T21:25:27Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@243e20e7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTests2 -->
+        <test-method status="PASS" signature="googleSearchTests2(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests2@4667ae56]" name="googleSearchTests2" duration-ms="3271" started-at="2016-12-12T21:25:31Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@13966afc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTests2 -->
+        <test-method status="PASS" signature="googleSearchTests2(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests2@4667ae56]" name="googleSearchTests2" duration-ms="2102" started-at="2016-12-12T21:25:34Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@7f3c202d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTests2 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.GoogleSearchTests2@4667ae56]" name="tearDown" is-config="true" duration-ms="911" started-at="2016-12-12T21:25:36Z" finished-at="2016-12-12T21:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.GoogleSearchTests2 -->
+    </test> <!-- Test-2 -->
+    <test name="Test-3" duration-ms="11649" started-at="2016-12-13T05:25:27Z" finished-at="2016-12-13T05:25:39Z">
+      <class name="testcases.GoogleSearchTests3">
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:testcases.GoogleSearchTests3@464bee09]" name="initDriver" is-config="true" duration-ms="1657" started-at="2016-12-12T21:25:27Z" finished-at="2016-12-12T21:25:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="googleSearchTests3(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests3@464bee09]" name="googleSearchTests3" duration-ms="2923" started-at="2016-12-12T21:25:29Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@5255fd91]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTests3 -->
+        <test-method status="PASS" signature="googleSearchTests3(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests3@464bee09]" name="googleSearchTests3" duration-ms="2093" started-at="2016-12-12T21:25:31Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@41c11b68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTests3 -->
+        <test-method status="PASS" signature="googleSearchTests3(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests3@464bee09]" name="googleSearchTests3" duration-ms="2533" started-at="2016-12-12T21:25:34Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@1dd6562f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTests3 -->
+        <test-method status="PASS" signature="googleSearchTests3(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests3@464bee09]" name="googleSearchTests3" duration-ms="1853" started-at="2016-12-12T21:25:36Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@67ca18c6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTests3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.GoogleSearchTests3@464bee09]" name="tearDown" is-config="true" duration-ms="581" started-at="2016-12-12T21:25:38Z" finished-at="2016-12-12T21:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.GoogleSearchTests3 -->
+    </test> <!-- Test-3 -->
+    <test name="Test-4" duration-ms="16668" started-at="2016-12-13T05:25:37Z" finished-at="2016-12-13T05:25:54Z">
+      <class name="testcases.GoogleSearchTests4">
+        <test-method status="PASS" signature="configLoader(java.lang.String)[pri:0, instance:testcases.GoogleSearchTests4@3c0ecd4b]" name="configLoader" is-config="true" duration-ms="13" started-at="2016-12-12T21:25:12Z" finished-at="2016-12-12T21:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/test/resources/config.properties/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLoader -->
+        <test-method status="PASS" signature="initDriver(java.lang.String, java.lang.String)[pri:0, instance:testcases.GoogleSearchTests4@3c0ecd4b]" name="initDriver" is-config="true" duration-ms="1969" started-at="2016-12-12T21:25:37Z" finished-at="2016-12-12T21:25:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method status="PASS" signature="googleSearchTests4(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests4@3c0ecd4b]" name="googleSearchTests4" duration-ms="4533" started-at="2016-12-12T21:25:39Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@60f4df8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTests4 -->
+        <test-method status="PASS" signature="googleSearchTests4(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests4@3c0ecd4b]" name="googleSearchTests4" duration-ms="3608" started-at="2016-12-12T21:25:44Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@35749406]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTests4 -->
+        <test-method status="PASS" signature="googleSearchTests4(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests4@3c0ecd4b]" name="googleSearchTests4" duration-ms="2594" started-at="2016-12-12T21:25:47Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@390ed6df]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTests4 -->
+        <test-method status="PASS" signature="googleSearchTests4(dataProvider.GoogleSearchCsvObjects)[pri:0, instance:testcases.GoogleSearchTests4@3c0ecd4b]" name="googleSearchTests4" duration-ms="2280" started-at="2016-12-12T21:25:50Z" data-provider="getSearchData" finished-at="2016-12-12T21:25:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dataProvider.GoogleSearchCsvObjects@3f2dcafe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearchTests4 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.GoogleSearchTests4@3c0ecd4b]" name="tearDown" is-config="true" duration-ms="1680" started-at="2016-12-12T21:25:52Z" finished-at="2016-12-12T21:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.GoogleSearchTests4 -->
+    </test> <!-- Test-4 -->
+  </suite> <!-- Suite -->
+</testng-results>
