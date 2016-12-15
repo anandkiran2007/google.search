@@ -15,3 +15,8 @@ Steps to implement:
 4. Once the project is resolved , configure the Gridhub using following command : java -jar selenium-server-standalone-3.0.1.jar -role hub -hubConfig  GridHub.json
 5. Login in to another machine and configure the node - java -jar selenium-server-standalone-3.0.1.jar -role hub -nodeConfig  GridNode.json (Update the hub details in the json file with appropriate IP addresss )
 6. Trigger the scripts using testng file.
+
+
+For running the hub and nodes
+java -jar selenium-server-standalone-3.0.1.j -role hub -hubConfig GridHub.json
+java -jar selenium-server-standalone-3.0.1.j -role hub -nodeConfig GridNode.json
